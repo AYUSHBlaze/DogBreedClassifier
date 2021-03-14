@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Result</title>
+    </head>
+    <body>
+        <h1>This is the result page.</h1>
+        <h1>Predictions</h1>
+{% for r,p in res %}
+   {{r}} {{p}}%<tr/>
+{% endfor %}
+    </body>
+</html>
